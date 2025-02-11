@@ -1,30 +1,17 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import Backend from "i18next-http-backend";
 
 i18n
+  .use(Backend)
   .use(initReactI18next)
   .init({
-    resources: {
-      ru: {
-        common: require('./locales/ru/common.json'),
-        home: require('./locales/ru/home.json'),
-        history: require('./locales/ru/history.json'),
-      },
-      ua: {
-        common: {},
-        home: {},
-        history: {},
-      },
-      de: {
-        common: {},
-        home: {},
-        history: {},
-      },
-    },
-    lng: 'ru', // default language
-    fallbackLng: 'ru',
+    fallbackLng: "ru",
     interpolation: {
-      escapeValue: false, // react already safes from xss
+      escapeValue: false,
+    },
+    backend: {
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
     },
   });
 
