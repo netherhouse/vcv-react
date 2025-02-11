@@ -1,0 +1,41 @@
+.about {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.about__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about__description {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.about__team {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.about__team-member {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about__team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.about__team-member-name {
+    font-weight: bold;
+    margin-top: 10px;
+}

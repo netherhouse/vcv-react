@@ -2,6 +2,8 @@
   "name": "vcv-react",
   "version": "0.1.0",
   "private": true,
+  "description": "A project that includes various components and pages for a web application.",
+  "main": "src/index.tsx",
   "dependencies": {
     "@types/lodash-es": "^4.17.12",
     "clsx": "^2.1.1",
@@ -16,6 +18,11 @@
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
     "sass": "^1.84.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

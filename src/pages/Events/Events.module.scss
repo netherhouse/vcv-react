@@ -1,0 +1,38 @@
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.eventList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.eventItem {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.eventTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.eventDate {
+    font-size: 1rem;
+    color: #666;
+}
+
+.eventDescription {
+    font-size: 1rem;
+    color: #444;
+}

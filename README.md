@@ -44,3 +44,67 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Project Name
+
+## Description
+
+This project is a web application designed to provide users with various functionalities, including viewing history, events, and repertoire, as well as switching languages and contacting support.
+
+## Features
+
+- **Responsive Design**: The application is designed to work on both desktop and mobile devices.
+- **Language Support**: Users can switch between multiple languages.
+- **Dynamic Routing**: The application uses a router to navigate between different pages seamlessly.
+- **Custom Hooks**: Includes hooks for mobile detection and other utilities.
+
+## File Structure
+
+```
+src/
+├── assets/                # Contains images, icons, and fonts
+├── components/            # Reusable components like Header, Footer, and LanguageSwitcher
+├── pages/                 # Different pages of the application
+├── locales/               # Localization files for different languages
+├── styles/                # SCSS files for styling
+├── hooks/                 # Custom hooks
+├── utils/                 # Utility functions
+├── types/                 # TypeScript type definitions
+├── router/                # Application routing
+├── App.tsx                # Main application component
+├── index.tsx              # Entry point of the application
+└── i18n.ts                # Internationalization setup
+```
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone [repository-url]
+   ```
+2. Navigate to the project directory:
+   ```
+   cd [project-name]
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+## Usage
+
+To start the application, run:
+
+```
+npm start
+```
+
+This will launch the application in your default web browser.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
